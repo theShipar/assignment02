@@ -1,0 +1,145 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  .masthead {
+    
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 2rem;
+    text-align: center;
+    position: relative;
+  }
+  
+  .masthead::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../img/itachieyes.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    z-index: -1;
+  }
+  
+  .masthead .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .masthead-subheading {
+    font-size: 1.5rem;
+    color: #ff6b6b;
+    margin-bottom: 1rem;
+  }
+  
+  .masthead-heading {
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #fff;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px #ff6b6b, 4px 4px #ff6b6b, 6px 6px #ff6b6b, 8px 8px #ff6b6b, 10px 10px #ff6b6b;
+  }
+  
+  .btn-primary {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .feature-container h2,
+  .feature-container h3 {
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    animation: fadeIn 1s ease-out forwards;
+  }
+  
+  .feature-container button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .feature-container button:hover {
+    background-color: #000000;
+  }
+  
+  .feature-container button:focus {
+    outline: none;
+  }
+  
+  .feature-container form input,
+  .feature-container form select,
+  .feature-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+  }
+  
+  .feature-container form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+
+  #scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+  }
+  
+  #scrollToTopBtn:hover {
+    opacity: 1;
+  }
+  
+  #scrollToTopBtn img {
+    display: block;
+    width: 24px;
+    height: 24px;
+    color: #FFD43B;
+  }
+
+  
